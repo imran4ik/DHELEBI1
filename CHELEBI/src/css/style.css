@@ -1,0 +1,640 @@
+* {
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  width: 89%;
+}
+
+.nav-image {
+  position: absolute;
+  width: 100%;
+  background-color:rgba(0, 0, 0, 0.8);
+  z-index: -1;
+  object-fit: cover;
+  height: 100px;
+}
+
+nav .nav-link {
+  margin-top: 8px;
+  margin-left: 12px;
+  color: white;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  color: #FFFFFF;
+  opacity: 0.6;
+  z-index: +2;
+}
+
+.english{
+  margin-top: 16px;
+  margin-left: 12px;
+  color: white;
+  font-size: 24px;
+  font-family: 'Aza_FuturicaBook';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-top: 17px;
+}
+
+.eng-span {
+position: absolute;
+width: 30px;
+height: 2px;
+margin-top: 3px;
+margin-left: 13px;
+background: #FFFFFF;
+}
+
+.light-ball {
+  position: absolute;
+  margin-left: 64%;
+  z-index: -2;
+  width: 36%;
+}
+
+.navbar-nav {
+  margin-right: 70%;
+}
+
+.nav-link2 {
+  color: #292929;
+}
+
+.navbar-1 {
+  height: 100px;
+}
+
+.navbar-2 {
+  position: absolute;
+}
+
+header ul li {
+  list-style-type: none;
+  margin-top: 30px;
+  display: inline;
+}
+
+.chelebi {
+  color: #292929;
+  font-size: 38px;
+  font-weight: 800;
+  text-decoration: none;
+  margin-left: 45%;
+}
+
+.bog {
+  color: #292929;
+  font-size: 30px;
+  font-weight: 800;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 35%;
+}
+
+.start {
+  background-color:rgba(246, 243, 238, 0.7);
+  margin-top: 104px;
+  width: 100%;
+  position: absolute;
+  height: 6650px;
+}
+
+.start h1 {
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Aza_FuturicaBook';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 62px;
+  color: #292929;
+}
+
+.start ul li {
+  margin-left: 10%;
+  display: inline;
+  font-family: 'Aza_FuturicaBook';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+  color: #292929;
+}
+
+.start ul {
+  margin-top: 35px;
+}
+
+.owl-nav {
+    display: none;
+}
+
+.item {
+  margin-top: 60px;
+  margin-right: 30px;
+}
+
+.little-ball {
+  position: absolute;
+  padding: 37px;
+  border-radius: 50%;
+  margin-top: 68%;
+  margin-left: 72%;
+  text-align: center;
+  background: #FF6A28;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 36.5016px 29.2013px rgba(0, 0, 0, 0.0482987), 0px 17.7209px 14.1767px rgba(0, 0, 0, 0.0389404), 0px 8.6871px 6.94968px rgba(0, 0, 0, 0.0310596), 0px 3.43489px 2.74791px rgba(0, 0, 0, 0.0217013);
+}
+
+.oval-ball {
+  position: absolute;
+  z-index: -1;
+  margin-top: 200px;
+  width: 90%;
+}
+
+.orange {
+  margin-top:150px;
+  position: absolute;
+  background-color: rgba(252, 175, 69, 1);
+  width: 65%;
+  height: 800px;
+}
+
+.border-img {
+  position: absolute;
+  margin-top: 40px;
+  width: 96%;
+  height: 90%;
+  margin-left: 2%;
+}
+
+.points-img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.orange h2 {
+  font-family: 'Aza_Futurica';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 43px;
+  color: #292929;
+}
+
+.orange p {
+  margin-top: 5%;
+  font-family: 'Aza_FuturicaBook';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 43px;
+  line-height: 41px;
+  color: #000000;
+}
+
+.orange-texts {
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 15%;
+}
+
+.sofa {
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 50%;
+  width: 47%;
+}
+
+.oval-ball-2 {
+  position: absolute;
+  z-index: -3;
+  margin-top: 550px;
+  width: 70%;
+}
+
+.rotate-oval-ball {
+  position: absolute;
+  z-index: -2;
+  margin-top: 350px;
+  width: 70%;
+  margin-left: 30%;
+}
+
+.start h3 {
+  z-index: +2;
+  position: absolute;
+  margin-top: 1150px;
+  width: 260px;
+  font-family: 'Aza_Futurica';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 32px;
+  color: #292929;
+}
+
+.green img {
+  position: absolute;
+  margin-top: 1142px;
+  margin-left: 7%;
+  z-index: 1;
+}
+
+.middle .last-ball {
+  position: absolute;
+  z-index: -1;
+  margin-top: 2970px;
+  width: 75%;
+}
+
+.middle .many-imges{
+  position: absolute;
+  margin-top: 2100px;
+  width: 85%;
+}
+
+.green2 img {
+  position: absolute;
+  margin-top: 3060px;
+  margin-left: 4%;
+  z-index: 1;
+}
+
+.middle h3 {
+  z-index: +2;
+  position: absolute;
+  margin-top: 3070px;
+  width: 260px;
+  font-family: 'Aza_Futurica';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 32px;
+  color: #292929;
+}
+
+.catalogue {
+  position: absolute;
+  margin-top: 3060px;
+  z-index: 1;
+  width: 48%;
+}
+
+.middle p {
+  position: absolute;
+  margin-top: 3190px;
+  margin-left: 40%;
+  font-family: 'Aza_Futurica';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 60px;
+  color: #292929;
+  word-spacing: 30px;
+}
+
+:hover .middle p {
+  color: #ff2828;
+}
+
+.btn-cntnr {
+  position: absolute;
+  margin-top: 3900px;
+  margin-left: 40%;
+  z-index: +2;
+}
+
+.btn-cntnr button {
+  margin-right: 35px;
+  width: 330px;
+  height: 100px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.end {
+  margin-top: 4300px;
+}
+
+.girl {
+  position: absolute;
+  width: 45%;
+  margin-left: 22%;
+}
+
+.end h3 {
+  position: absolute;
+  z-index: +2;
+  margin-top: 500px;
+  margin-left: 18%;
+  font-family: 'Aza_FuturicaBook';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 130px;
+  letter-spacing: 5px;
+  width: 60%;
+  color: #292929;
+}
+
+.bags img {
+  position: absolute;
+  margin-top: 1050px;
+  width: 20%;
+  height: 40%;
+}
+
+.bags h4 {
+  margin-top: 1500px;
+  margin-left: 7%;
+  position: absolute;
+  font-family: 'Aza_Futurica';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 21px;
+  color: #292929;
+}
+
+.bags h5 {
+  margin-top: 1530px;
+  margin-left: 7%;
+  position: absolute;
+  font-family: 'Aza_Futurica';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 21px;
+  color: #FF5656;
+}
+
+footer {
+  z-index: +2;
+  height: 880px;
+  margin-top: 1570px;
+}
+
+.line {
+  z-index: +2;
+  height: 2px;
+  border: 3px solid black;
+}
+
+footer p {
+  position: absolute;
+  width: 88%;
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  font-family: 'Aza_Futurica';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 36px;
+  color: #000000;
+  background-color: rgba(252, 175, 69, 1);
+}
+
+footer h3 {
+  position: absolute;
+  margin-top: 100px;
+  font-family: 'Aza_Futurica';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 32px;
+  color: #292929;
+}
+
+.footer-link{
+  position: absolute;
+  display: inline;
+  margin-top: 200px;
+}
+
+.footer-link li {
+  display: inline;
+  margin-right: 6rem;
+}
+
+.footer-link li a {
+  font-family: 'Aza_FuturicaBook';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 28px;
+  color: rgba(41, 41, 41, 1);
+  text-decoration: none;
+}
+
+.first-ul h4 {
+  font-family: 'Aza_Futurica';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.first-ul {
+  position: absolute;
+  margin-top: 300px;
+}
+
+.first-ul ul a {
+  font-family: 'Aza_Futurica';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 28px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.first-ul li {
+  list-style-type: none;
+  margin-top: 5px;
+}
+
+.first-ul ul {
+  margin-top: 25px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.second-ul h4 {
+  font-family: 'Aza_Futurica';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.second-ul {
+  position: absolute;
+  margin-top: 300px;
+}
+
+.second-ul ul a {
+  font-family: 'Aza_Futurica';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 28px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.second-ul li {
+  list-style-type: none;
+  margin-top: 5px;
+}
+
+.second-ul ul {
+  margin-top: 25px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.third-ul h4 {
+  font-family: 'Aza_Futurica';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.third-ul {
+  position: absolute;
+  margin-top: 300px;
+}
+
+.third-ul ul a {
+  font-family: 'Aza_Futurica';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 28px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.third-ul li {
+  list-style-type: none;
+  margin-top: 5px;
+}
+
+.third-ul ul {
+  margin-top: 25px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.fourth-ul h4 {
+  font-family: 'Aza_Futurica';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.fourth-ul {
+  position: absolute;
+  margin-top: 300px;
+}
+
+.fourth-ul ul a {
+  font-family: 'Aza_Futurica';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 28px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.fourth-ul li {
+  list-style-type: none;
+  margin-top: 5px;
+}
+
+.fourth-ul ul {
+  margin-top: 25px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.fifth-ul h4 {
+  font-family: 'Aza_Futurica';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.fifth-ul {
+  position: absolute;
+  margin-top: 300px;
+}
+
+.fifth-ul ul a {
+  font-family: 'Aza_Futurica';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 28px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.fifth-ul li {
+  list-style-type: none;
+  margin-top: 5px;
+}
+
+.fifth-ul ul {
+  margin-top: 25px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* RESPONSIVE */
+
+@media (max-width:1500px){
+  .start {
+  height: 7000px;
+}}
+
+@media (max-width:1500px){
+  footer h3 {
+  margin-top: 180px;
+}}
+
+@media (max-width:1500px){
+  footer .footer-link {
+  margin-top: 250px;
+}}
+
+
+@media (max-width:1500px){
+  footer .second-ul, footer .fourth-ul {
+  margin-top: 650px;
+}}
+
+
+/* @media (max-width:12\src\index.html00px){
+  .footer-list{
+   width: 14rem;
+}} */
